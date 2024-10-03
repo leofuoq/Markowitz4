@@ -1,4 +1,4 @@
 streamlit
 pandas
 vnstock3
-plotly
+plotly.express
