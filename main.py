@@ -6,7 +6,8 @@ from vnstock3 import Vnstock
 from scipy.optimize import minimize
 
 # Đọc file CSV (thay đường dẫn tới file CSV của bạn)
-df = pd.read_csv('E:/D/DC/std/tailieu/Ki7/Code/PTDLTC/result3.csv')
+df = pd.read_csv('result3.csv')
+
 
 # Tạo đối tượng Vnstock (để lấy dữ liệu giá cổ phiếu)
 def create_vnstock_instance():
